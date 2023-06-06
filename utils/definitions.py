@@ -1,0 +1,34 @@
+DATA_MAIN_PATH = './data_semantics/'
+TRAIN_MAIN_PATH = './data_semantics/training/'
+TRAIN_IMAGE_PATH = './data_semantics/training/image_2/'
+TRAIN_INSTANCE_PATH = './data_semantics/training/instance/'
+TRAIN_SEMANTIC_PATH = './data_semantics/training/semantic/'
+TRAIN_RGB_SEMANTIC_PATH = './data_semantics/training/semantic_rgb/'
+TEST_IMAGE_PATH = './data_semantics/testing/image_2/'
+
+PREPARED_MAIN_PATH = './prepared_data/'
+PREPARED_TRAIN_IMAGE = './prepared_data/training/image/'
+PREPARED_TRAIN_MASK = './prepared_data/training/mask/'
+PREPARED_TEST_IMAGE = './prepared_data/testing/image/'
+
+UNLABELED = (0, 0, 0)
+EGO_VEHICLE = (0, 0, 0)
+ROAD = (128, 64, 128)
+SIDEWALK = (244, 35, 232)
+BUILDING = (70, 70, 70)
+WALL = (102, 102, 156)
+FENCE = (190, 153, 153)
+POLE = (153, 153, 153)
+TRAFFIC_LIGHT = (250, 170, 30)
+TRAFFIC_SIGN = (220, 220, 0)
+VEGETATION = (107, 142, 35)
+TERRAIN = (152, 251, 152)
+SKY = (70, 130, 180)
+PERSON = (220, 20, 60)
+RIDER = (255, 0, 0)
+CAR = (0, 0, 142)
+TRUCK = (0, 0, 70)
+BUS = (0, 60, 100)
+TRAIN = (0, 80, 100)
+MOTORCYCLE = (0, 0, 230)
+BICYCLE = (119, 11, 32)
